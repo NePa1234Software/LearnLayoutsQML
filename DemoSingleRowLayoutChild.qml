@@ -11,7 +11,7 @@ Item {
         Rectangle { color: "yellow"; width: 500; height: 8 }
         ParentRectangleWithRowLayout {
             id: layout
-            height: 300;
+            height: 200;
             width: sliderWidth.value
 
             CustomElideLabel {

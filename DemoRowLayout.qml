@@ -12,7 +12,7 @@ Item
         Rectangle { color: "yellow"; width: 500; height: 8 }
         ParentRectangleWithColumnLayout {
             id: layout
-            height: 500;
+            height: 300;
             width: sliderWidth.value
             spacing: sliderColumnSpacing.value
 

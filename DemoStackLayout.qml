@@ -19,7 +19,7 @@ ColumnLayout {
         CustomTabButton { text: qsTr("RowLayout\nwith 2 Items") }
         CustomTabButton { text: qsTr("RowLayout") }
         CustomTabButton { text: qsTr("ColumnLayout") }
-        CustomTabButton { text: qsTr("GridLayout") }
+        // CustomTabButton { text: qsTr("GridLayout TODO") }
     }
 
     StackLayout {
@@ -49,11 +49,11 @@ ColumnLayout {
             Layout.fillHeight: true
         }
 
-        CustomLabel {
-            id: gridTab
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            text: "TODO grid layouts"
-        }
+        // CustomLabel {
+        //     id: gridTab
+        //     Layout.fillWidth: true
+        //     Layout.fillHeight: true
+        //     text: "TODO grid layouts"
+        // }
     }
 }
